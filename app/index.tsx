@@ -34,7 +34,7 @@ const storyData = [
     id: "sense",
     text: "It's normal to see, hear and have senses, but I'll give you more than what you know, you will now have the good sense to understand at an innate level your surroundings, almost as if you have an ability to know what's next or how to do things for your best chance at leaving the forest with life experiences that will carry you through in life afterwards and let you share this with other's.",
     choices: [
-      { text: "Start walking the forest", nextId: "walking1"},
+      { text: "Start walking the forest", nextId: "walking1" },
       { text: "Start a meditation session", nextId: "sense1" },
       { text: "Ask about your purpose in life", nextId: "purpose1" },
     ],
