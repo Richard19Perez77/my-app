@@ -5,46 +5,73 @@ import { View, Text, TouchableOpacity, StyleSheet } from "react-native";
 const storyData = [
   {
     id: "start",
-    text: "You wake up in a dark forest. You hear a rustling sound nearby. What do you do?",
+    text: "You wake up in a dark forest. The first thing you notice is you are wearing a light colored gown and are a girl, as you start to think what is this to yourself, you hear a voice from inside speaking to you..., 'What would you like to help you survive? A book, a tool, or an innate sense?",
     choices: [
-      { text: "Investigate the sound", nextId: "investigate" },
-      { text: "Run away", nextId: "run" },
+      { text: "A Book to read!", nextId: "book" },
+      { text: "A Tool to use!", nextId: "tool" },
+      { text: "An innate sense to have!", nextId: "sense" },
     ],
   },
   {
-    id: "investigate",
-    text: "You find a small, injured animal. It looks like it needs help.",
+    id: "book",
+    text: "You are given a book, it is a reference guide for staying alive, this could really be useful! You read the book but only have the pages are written in it. In the last page it says... as you learn more you will get more information, but you must traverse the forest and experience life to learn more...",
     choices: [
-      { text: "Help the animal", nextId: "help" },
-      { text: "Leave it and move on", nextId: "leave" },
+      { text: "Start walking the forest...", nextId: "walking1" },
+      { text: "Re-read the book...", nextId: "readbook0" },
+      { text: "Go to sleep...", nextId: "sleep1" },
     ],
   },
   {
-    id: "run",
-    text: "You run as fast as you can, but you trip and fall. When you get up, you're lost.",
+    id: "tool",
+    text: "Excellent choice, man has used tools for millenia, this time instead of you having to make a tool, I will give you a tool that can change your world and hone your own abilities from gaining strength to learning how to solve complex problems with making creative use of this tool. You find this tool at your feet and it almost looks like scissors but instead of blades there is a jagged clamp and the handle reverses to a single hold, while the blades can join to form a single rod.",
     choices: [
-      { text: "Try to find your way back", nextId: "lost" },
-      { text: "Keep running", nextId: "keepRunning" },
+      { text: "Practice using the tool around you", nextId: "toolpractice1" },
+      { text: "Start walking the forest", nextId: "walking1" },
+      { text: "Look around you", nextId: "look1" },
     ],
   },
   {
-    id: "help",
-    text: "You help the animal, and it leads you to safety. You win!",
+    id: "sense",
+    text: "It's normal to see, hear and have senses, but I'll give you more than what you know, you will now have the good sense to understand at an innate level your surroundings, almost as if you have an ability to know what's next or how to do things for your best chance at leaving the forest with life experiences that will carry you through in life afterwards and let you share this with other's.",
+    choices: [
+      { text: "Start walking the forest", nextId: "walking1"},
+      { text: "Start a meditation session", nextId: "sense1" },
+      { text: "Ask about your purpose in life", nextId: "purpose1" },
+    ],
+  },
+  {
+    id: "readbook0",
+    text: "You read the book again having learned from it once...",
     choices: [],
   },
   {
-    id: "leave",
-    text: "You leave the animal behind, but you feel guilty. The guilt haunts you forever.",
+    id: "walking1",
+    text: "You begin the walk of the forest...",
     choices: [],
   },
   {
-    id: "lost",
-    text: "You wander the forest for hours but never find your way out. You lose.",
+    id: "sense1",
+    text: "You think inside, and begin to close your mind to your surroundings...",
     choices: [],
   },
   {
-    id: "keepRunning",
-    text: "You keep running and eventually find a road. You escape the forest!",
+    id: "purpose1",
+    text: "You ask to the void where the voice was heard, what is my purpose in this strange world of choices...",
+    choices: [],
+  },
+  {
+    id: "sleep1",
+    text: "In this world, it's dark and late and sleep is a good thing to keep rested...",
+    choices: [],
+  },
+  {
+    id: "look1",
+    text: "The forest is dark but you can start looking around and see there are tree's and paths, as well as the night sky has stars visible with the mmon out behind some clouds...",
+    choices: [],
+  },
+  {
+    id: "toolpractice1",
+    text: "The tool you are given immediately seems to conform to your hand and it seems there is a lot that can be done with it given the forest setting...",
     choices: [],
   },
 ];
