@@ -1,0 +1,46 @@
+[
+    {
+      "id": "start",
+      "text": "You wake up in a dark forest. You hear a rustling sound nearby. What do you do?",
+      "choices": [
+        { "text": "Investigate the sound", "nextId": "investigate" },
+        { "text": "Run away", "nextId": "run" }
+      ]
+    },
+    {
+      "id": "investigate",
+      "text": "You find a small, injured animal. It looks like it needs help.",
+      "choices": [
+        { "text": "Help the animal", "nextId": "help" },
+        { "text": "Leave it and move on", "nextId": "leave" }
+      ]
+    },
+    {
+      "id": "run",
+      "text": "You run as fast as you can, but you trip and fall. When you get up, you're lost.",
+      "choices": [
+        { "text": "Try to find your way back", "nextId": "lost" },
+        { "text": "Keep running", "nextId": "keepRunning" }
+      ]
+    },
+    {
+      "id": "help",
+      "text": "You help the animal, and it leads you to safety. You win!",
+      "choices": []
+    },
+    {
+      "id": "leave",
+      "text": "You leave the animal behind, but you feel guilty. The guilt haunts you forever.",
+      "choices": []
+    },
+    {
+      "id": "lost",
+      "text": "You wander the forest for hours but never find your way out. You lose.",
+      "choices": []
+    },
+    {
+      "id": "keepRunning",
+      "text": "You keep running and eventually find a road. You escape the forest!",
+      "choices": []
+    }
+  ]
