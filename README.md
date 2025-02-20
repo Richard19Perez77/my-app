@@ -1,50 +1,17 @@
-# Welcome to your Expo app 👋
+# Lost Forest RPG
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple game of story and choices that can lead you to a life from your experiences and decisions.
 
 ## Get started
 
-1. Install dependencies
+Make choices as you see you like and see what kind of person you become!
 
-   ```bash
-   npm install
-   ```
+You will be given story choices and then I'll give an ending based on them, use the buttons to select a path that is based off of your decisions!
 
-2. Start the app
+## Become something from your forest experience
 
-   ```bash
-    npx expo start
-   ```
+I'd like this to be a fun adventure where you can learn from the forest and grow as a person!
 
-In the output, you'll find options to open the app in a
+## React Native
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This is a development project to help me learn React, so as you read the code or play the game, have fun, I'll try to comment it well as I start expanding it, for the first version it may be one file to start, but I will start using more paradigms and architectures as I develop it.
